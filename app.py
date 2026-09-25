@@ -6,7 +6,7 @@ import streamlit as st
 
 
 st.set_page_config(page_title="BudgetBuddy", page_icon="🎓", layout="wide")
-st.html('<meta name="google-site-verification" content="PASTE_YOUR_GOOGLE_CODE_HERE" />')
+st.html('<meta name="google-site-verification" content="9hCqasBBJ4Y1056ku3b1Oz9enIp2ulJ6aVlSbWNKEDw" />')
 
 DATA_FILE = "budget_buddy_web_data.json"
 CATEGORIES = ["Food", "Transportation", "School", "Wants", "Others"]
