@@ -49,6 +49,17 @@ st.markdown(
     .hero p { color: #d8eee7; margin: .45rem 0 0; font-size: 1.05rem; }
     [data-testid="stMetric"] { background: white; border: 1px solid #e1e9e5; padding: 1rem; border-radius: 12px; }
     .tip { background: #fff4d9; border-left: 4px solid #e5a72e; padding: .8rem 1rem; border-radius: 8px; color: #624b13; }
+
+    @media (max-width: 640px) {
+        .block-container { padding: 1rem .8rem 2rem; }
+        .hero { padding: 1.35rem 1.1rem; border-radius: 12px; margin-bottom: 1rem; }
+        .hero h1 { font-size: 2rem; }
+        .hero p { font-size: .95rem; }
+        [data-testid="stMetric"] { padding: .7rem; }
+        [data-testid="stMetricValue"] { font-size: 1.25rem; }
+        [data-testid="stHorizontalBlock"] { gap: .6rem; }
+        .stButton > button, .stFormSubmitButton > button { min-height: 2.75rem; }
+    }
     </style>
     """,
     unsafe_allow_html=True,
